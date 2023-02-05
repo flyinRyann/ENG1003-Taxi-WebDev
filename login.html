@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css" />
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet'>
+        <link rel = "stylesheet" type="text/css" href="css/main.css"/>
+    <style type="text/css">
+			#map
+{
+  position: sticky;
+  
+    height: 100%;
+    width: 100%;
+}
+		</style>
+        <!--script src="js/main.js"></script-->
+    </head>
+    <body>
+
+        <div class = "box1">
+            <div class = "topbox">
+              <div class = "startAddressbox" >
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="startAddressInput">
+                  <label class="mdl-textfield__label" for="sample3" style ="font-weight: bold;">Start Address</label>
+                </div>
+                </div>
+              </div>
+              <div class = "stopAddressbox">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="stopAddressInput">
+                  <label class="mdl-textfield__label" for="sample3" style ="font-weight: bold;">Stop Address</label>
+                </div>
+              </div>
+
+
+        <div class="mapboxPlaceHolder" style="transform: translate(0,40%);"><div id="map"></div></div>
+
+
+        <div class = "box10">
+            <div class = "smallbox">
+                <button onclick="StartLocation();" style="color: black;"class="mdl-button mdl-js-button mdl-button--primary">
+                    Start Location
+                  </button>
+            </div>
+
+            
+                    <button onclick="StopLocation();" style="color: black;"class="mdl-button mdl-js-button mdl-button--primary">
+                        Stop Location
+                      </button>
+                
+    </body>
+
+
+    <script src="js/signUp.js"></script>
+</html>

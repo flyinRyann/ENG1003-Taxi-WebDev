@@ -1,0 +1,806 @@
+
+div.bigbox
+{
+    height:30vh ;
+    width: 40vw ;
+    background-color:goldenrod; 
+    border: 2px solid black;
+    opacity: 1.0;
+}
+
+div.mediumbox
+{
+    height:50vh ;
+    width: 35vw ;
+    background-color:goldenrod; 
+    border: 2px solid black;
+    opacity: 1.0;
+}
+
+div.smallbox
+{
+    height:7vh ;
+    width: 35vw ;
+    background-color:goldenrod; 
+    border: 2px solid black;
+    opacity: 1.0;
+}
+
+div.smallerbox
+{
+    height:5vh ;
+    width: 10vw ;
+    background-color:goldenrod; 
+    border: 2px solid black;
+    opacity: 1.0;     
+}
+
+div.slimbox
+{
+    height:14vh ;
+    width:54vw ;
+    background-color:goldenrod; 
+    border: 2px solid black;
+    opacity: 1.0;  
+}
+
+.box1
+{
+    position: absolute;
+    top: 20%;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15px;
+}
+
+.box1V2
+{
+    position: absolute;
+    top: 18%;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15px;
+}
+
+.box2
+{
+    position: absolute;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 950px;
+    top: 62%;
+}
+
+.box3
+{
+    position: absolute;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 950px;
+    top: 24%;
+}
+
+.box4
+{
+    position: absolute;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 950px;
+    top: 100%;
+}
+
+.box5
+{
+    position: fixed;
+    transform: translate(-32vw, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 92.5vw;
+    top: 81.5%;
+}
+
+.box6
+{
+    position: fixed;
+    transform: translate(-32vw, -40%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 92.5vw;
+    top: 52.5%;
+}
+
+.box7
+{
+    position: fixed;
+    transform: translate(-32vw, -40%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 92.5vw;
+    top: 90%;
+}
+
+.box8
+{
+    position: fixed;
+    transform: translate(-32vw, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 92.5vw;
+    top: 26%;
+}
+
+.box9
+{
+    position: fixed;
+    transform: translate(-32vw, -40%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 95vw;
+    top: 52%;
+}
+
+.box10
+{
+    position: fixed;
+    transform: translate(-32vw, -40%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 92.5vw;
+    top: 88%;
+}
+
+.box11
+{
+    position: absolute;
+    top: 33%;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15px;
+}
+
+.box12
+{
+    position: absolute;
+    top: 42%;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15px;
+}
+
+.box13
+{
+    position: absolute;
+    top: 51%;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15px;
+}
+
+.box14
+{
+    position: absolute;
+    top: 60%;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15px;
+}
+
+.box15
+{
+    position: absolute;
+    top: 69%;
+    transform: translate(0, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15px;
+}
+
+.title
+{
+    position: absolute;
+    top: 50%;
+    transform: translate(-6%, -50%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 80vh;
+    padding-left: 34vw;
+
+}
+.dropdown
+{
+    position: absolute;
+    top: 17%;   
+    border: 1px solid black;
+    background-color: goldenrod;
+    width: 300px;
+    height: 7vh;
+    left:1.9vw;
+
+}
+
+
+.startAddressbox
+{
+    position: absolute;
+    transform: translate(0, -50%);
+    border: 1px solid black;
+    padding: 10px;
+    padding-bottom: 10px;
+    left:4vh;
+    top:6vh;
+    background-color: ghostwhite;
+    height: 35px;
+    width: 195px;
+}
+.stopAddressbox
+{
+    position: absolute;
+    transform: translate(0, -50%);
+    border: 1px solid black;
+    padding: 10px;
+    padding-bottom: 10px;
+    left: 30vh;
+    top: 6vh;
+    background-color:ghostwhite;
+    height: 35px;
+    width: 182px;
+}
+
+.waypointAddressbox
+{
+    position: absolute;
+    transform: translate(0, -50%);
+    border: 1px solid black;
+    padding: 10px;
+    padding-bottom: 10px;
+    left:80vh;
+    top:6vh;
+    background-color: ghostwhite;
+    height: 35px;
+    width: 295px;
+}
+
+
+.taxiType1box
+{
+    position:absolute;
+    top: 80vh;
+    left: 2vh;
+    width: 3vw;
+    height: 10vh;
+}
+
+.taxiType2box
+{
+    position:absolute;
+    top: 80vh;
+    left: 22vh;
+    width: 30px;
+    height: 20px;
+}
+
+.taxiType3box
+{
+    position:absolute;
+    top: 80vh;
+    left: 42vh;
+    width: 30px;
+    height: 20px;
+}
+
+.taxiType4box
+{
+    position:absolute;
+    top: 80vh;
+    left: 60vh;
+    width: 30px;
+    height: 20px;                       
+}
+
+
+.backButton
+{
+    position: absolute;
+    left:2.41vh;
+    background-color:goldenrod ;
+    border: 1px black;
+    width: 11vw;
+    height: 4vh;
+    top:7vh;
+}
+
+.backButton2
+{
+    position: absolute;
+    left:2.15vw;
+    background-color:goldenrod ;
+    border: 1px black;
+    width: 8vw;
+    height: 4vh;
+    top:77%;
+}
+
+.forwardButton
+{
+    position: absolute;
+    left:50.8vw;
+    background-color:goldenrod ;
+    border: 1px black;
+    width: 8vw;
+    height: 4vh;
+    top:77%; 
+}
+
+
+.bottomAd
+{
+    position: fixed;
+    transform: translate(-2.05vw, 88vh);
+    background-color:tomato;
+    width: 100.75vw;
+    height: 11vh;
+    z-index: 2;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: turquoise;
+}
+
+.topbox
+{
+    height:9vh ;
+    width: 57vw ;
+    background-color:goldenrod; 
+    border: 1px solid black;
+    opacity: 1.0;
+    left: 2vh;
+}
+
+.topbox1
+{
+    height:13vh ;
+    width: 94.5vw ;
+    background-color:goldenrod; 
+    border: 1px solid black;
+    opacity: 1.0;
+    left: 1.8vh;
+}
+
+.mapBoxPlaceHolder
+{
+    position: absolute;
+    height:50vh ;
+    width: 57vw ;
+    background-color:goldenrod; 
+    border: 1px solid black;
+    opacity: 1.0;
+    top: 29%;
+    left: 2vh;
+}
+
+
+.dataTable
+{
+    position: absolute;
+    transform: translate(0,25vh);
+}
+
+.timePlaceHolder
+{
+    position: absolute;
+    top: 7vh;
+    left: 56vh;
+}
+.datePlaceHolder
+{
+    position: absolute;
+    top: 3vh;
+    left: 56vh;
+}
+
+.textForButtons
+{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7vh;
+    color:black;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: transparent;
+    font-style: italic;
+}
+
+.textForButtons1
+{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7vh;
+    color:black;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: transparent;
+    font-style: italic;
+    height:7vh ;
+    width: 35vw ;
+}
+
+.textStyle
+{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7vh;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.textStyle1
+{
+    text-align: left;
+    vertical-align: middle;
+    line-height: 4.5vh;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.textStyle2
+{
+    text-align:left;
+    vertical-align: middle;
+    line-height: 2vh;
+    color:black;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+}
+
+.textStyle3
+{
+    text-align:right;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.textStyle4
+{
+    text-align:left;
+    color:black;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
+
+.textStyle5
+{
+
+    text-align:center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+.journeyDescriptionBox3
+{
+    position: fixed;
+    transform: translate(-32vw, -40%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 92.5vw;
+    top: 45%;
+}
+
+.journeyDescriptionBox2
+{
+    position: fixed;
+    transform: translate(-32vw, -40%);
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 92.5vw;
+    top: 52.5%;
+}
+
+.pageContent
+{
+    position: fixed;
+    border: 0px solid #ff0;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 2vw;
+    top: 32%;
+}
+
+.block
+{  
+    text-align: left;
+    vertical-align: middle;
+    line-height: 5vh;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+    height:6vh ;
+    width: 8vw ;
+    background-color:goldenrod;
+    opacity: 1.0;
+    position:absolute;
+    top: 80vh;
+    left: 2vh;
+}
+
+.block1
+{
+    text-align: left;
+    vertical-align: middle;
+    line-height: 5vh;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+    height:6vh ;
+    width: 8vw ;
+    background-color:goldenrod;
+    opacity: 1.0;
+    position:absolute;
+    top: 80vh;
+    left: 22vh;
+}
+
+.block2
+{
+    text-align: left;
+    vertical-align: middle;
+    line-height: 5vh;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+    height:6vh ;
+    width: 8vw ;
+    background-color:goldenrod;
+    opacity: 1.0;
+    position:absolute;
+    top: 80vh;
+    left: 42vh;
+}
+
+.block3
+{
+    text-align: left;
+    vertical-align: middle;
+    line-height: 5vh;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+    height:6vh ;
+    width: 8vw ;
+    background-color:goldenrod;
+    opacity: 1.0;
+    position:absolute;
+    top: 80vh;
+    left: 62vh;
+}
+
+.confirmBookingButton
+{
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 60vw;
+    top: 85%;
+    height:8.7vh ;
+    width: 17vw ;
+    background-color:goldenrod; 
+    opacity: 1.0;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.cancelBookingButton1
+{
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 80vw;
+    top: 85%;
+    height:8.7vh ;
+    width: 17vw ;
+    background-color:goldenrod; 
+    opacity: 1.0;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.updateJourneyBookingButton
+{
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 15vw;
+    top: 85%;
+    height:8.7vh ;
+    width: 40vw ;
+    background-color:goldenrod; 
+    opacity: 1.0;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.addStopToJourneyButton
+{
+    position: absolute;
+    transform: translate(-32vw, -40%);
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 93vw;
+    top: 20%;
+    height:7vh ;
+    width: 35vw ;
+    background-color:goldenrod; 
+    opacity: 1.0;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.toViewBookingDetailButton
+{
+    position: absolute;
+    transform: translate(-32vw, -40%);
+    padding: 10px;
+    padding-bottom: 0px;
+    left: 93.5vw;
+    top: 88%;
+    height:7vh ;
+    width: 35vw ;
+    background-color:goldenrod; 
+    opacity: 1.0;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.cancelBookingButton
+{
+    left: 93.5vw;
+    top: 90%;
+    position: absolute;
+    transform: translate(-32vw, -40%);
+    padding: 10px;
+    padding-bottom: 0px;
+    height:7vh ;
+    width: 35vw ;
+    background-color:goldenrod; 
+    opacity: 1.0;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.editBookingButton
+{
+    left: 93.5vw;
+    top: 80%;
+    position: absolute;
+    transform: translate(-32vw, -40%);
+    padding: 10px;
+    padding-bottom: 0px;
+    height:7vh ;
+    width: 35vw ;
+    background-color:goldenrod; 
+    opacity: 1.0;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.backButton1
+{
+    position: absolute;
+    left:2.41vh;
+    background-color:goldenrod ;
+    border: 1px black;
+    width: 11vw;
+    height: 4vh;
+    text-align:right;
+    vertical-align: middle;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+    top: 20%;
+}
+
+.simpleButton
+{
+    position: absolute;
+    height: 3vh;
+    left:5.5vh;
+    top: 21%;   
+    width: 15.7vw;
+}
+
+.simpleButton1
+{
+    position: absolute;
+    height: 3vh;
+    left:31.5vh;
+    top: 21%;
+    width: 14.8vw;
+}
+
+.simpleButton2
+{
+    position: absolute;
+    height: 3vh;
+    left: 81.5vh;
+    top: 21%;
+    width: 15.7vw;
+}
+
+
+
+
+
+
+
+
